@@ -11,8 +11,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "publishToHeroku": "cd ../ && git subtree push --prefix backend heroku-app-backend master || true"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "misterkapur",
