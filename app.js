@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 //Root route for tasks
-app.use("/", api);
+app.use("/tasktracker", api);
 
 const port = process.env.PORT || 4500;
 
