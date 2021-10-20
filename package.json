@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  },
+  "name": "tasktracker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "publishToHeroku": "cd ../ && git subtree push --prefix backend heroku-app-backend master || true"
+  },
+  "keywords": [],
+  "author": "misterkapur",
+  "license": "ISC",
+  "description": ""
+}
